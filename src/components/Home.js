@@ -5,13 +5,21 @@ import zwiggy from '../assets/zwiggyapp.jpg'
 import emailIcon from '../assets/email.png'
 import linkedinIcon from '../assets/linkedin.png'
 import githubIcon from '../assets/github.png'
+import bg2 from '../assets/bg2.mp4';
 
 const Home = () => {
     return (
-        <div className='lg:bg-black lg:text-white'>
+        <div className='lg:text-white'>
+
+            <div>
+                {/* Background Video */}
+                <video className='fixed top-0 left-0 w-full h-full object-cover -z-10' autoPlay loop muted>
+                    <source src={bg2} type='video/mp4' />
+                </video>
+            </div>
 
             {/* Header */}
-            <div className='w-full h-20 py-2 bg-black px-4 flex items-center justify-between'>
+            <div className='w-full h-20 py-2 px-4 flex items-center justify-between'>
                 <h1 className='text-4xl font-bold text-[#2967d3]'>NiteshXP</h1>
                 <img className='h-5 mx-2' src={menuIcon} alt='menu' />
             </div>
@@ -131,7 +139,7 @@ const Home = () => {
             </div>
 
 
-        </div>
+        </div >
     )
 }
 
