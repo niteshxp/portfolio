@@ -8,7 +8,7 @@ import githubIcon from '../assets/github.png'
 
 const Home = () => {
     return (
-        <div className=''>
+        <div className='lg:bg-black lg:text-white'>
 
             {/* Header */}
             <div className='w-full h-20 py-2 bg-black px-4 flex items-center justify-between'>
@@ -38,45 +38,46 @@ const Home = () => {
                     <p className=' text-lg font-medium my-2'>Here are some of my proof of work.</p>
                 </div>
 
-                <div className='h-80 mx-10 my-10 rounded-3xl bg-purple-700 text-white'>
-                    <h1 className='font-semibold text-2xl text-center pt-4'>Netflix.ai</h1>
-                    <img
-                        className='h-32 my-4 mx-auto rounded-lg'
-                        src={netflix}
-                        alt='netflixai'
-                    />
+                <div className='lg:flex'>
+                    <div className='lg:w-2/5 h-80 mx-10 my-10 rounded-3xl bg-purple-700 text-white'>
+                        <h1 className='font-semibold text-2xl text-center pt-4'>Netflix.ai</h1>
+                        <img
+                            className='h-32 my-4 mx-auto rounded-lg'
+                            src={netflix}
+                            alt='netflixai'
+                        />
 
-                    <p className='text-center text-lg font-medium mx-5'>
-                        Netflix.ai is a full-stack web-app with integrated ChatGPT support.
-                    </p>
+                        <p className='text-center text-lg font-medium mx-5'>
+                            Netflix.ai is a full-stack web-app with integrated ChatGPT support.
+                        </p>
+                    </div>
+
+                    <div className='lg:w-2/5 h-80 mx-10 my-10 rounded-3xl bg-purple-700 text-white'>
+                        <h1 className='font-semibold text-2xl text-center pt-4'>Zwiggy</h1>
+                        <img
+                            className='h-32 my-4 mx-auto rounded-lg'
+                            src={zwiggy}
+                            alt='netflixai'
+                        />
+
+                        <p className='text-center text-lg font-medium mx-5'>
+                            Zwiggy is a food delivery web-app having different restaurants.
+                        </p>
+                    </div>
+
+                    <div className='lg:w-2/5 h-80 mx-10 my-10 rounded-3xl bg-purple-700 text-white'>
+                        <h1 className='font-semibold text-2xl text-center pt-4'>NewsDekho</h1>
+                        <img
+                            className='h-32 my-4 mx-auto rounded-lg'
+                            src={zwiggy}
+                            alt='netflixai'
+                        />
+
+                        <p className='text-center text-lg font-medium mx-5'>
+                            NewsDekho is a full-stack web-app which shows recent trending news.
+                        </p>
+                    </div>
                 </div>
-
-                <div className='h-80 mx-10 my-10 rounded-3xl bg-purple-700 text-white'>
-                    <h1 className='font-semibold text-2xl text-center pt-4'>Zwiggy</h1>
-                    <img
-                        className='h-32 my-4 mx-auto rounded-lg'
-                        src={zwiggy}
-                        alt='netflixai'
-                    />
-
-                    <p className='text-center text-lg font-medium mx-5'>
-                        Zwiggy is a food delivery web-app having different restaurants.
-                    </p>
-                </div>
-
-                <div className='h-80 mx-10 my-10 rounded-3xl bg-purple-700 text-white'>
-                    <h1 className='font-semibold text-2xl text-center pt-4'>NewsDekho</h1>
-                    <img
-                        className='h-32 my-4 mx-auto rounded-lg'
-                        src={zwiggy}
-                        alt='netflixai'
-                    />
-
-                    <p className='text-center text-lg font-medium mx-5'>
-                        NewsDekho is a full-stack web-app which shows recent trending news.
-                    </p>
-                </div>
-
 
             </div>
 
@@ -98,7 +99,7 @@ const Home = () => {
                 <h1 className='my-2 text-2xl font-semibold'>Skills</h1>
                 <p className='text-lg font-medium'>I'm excellent at translating modern and complex UI/UX design into functional and consumable front-end app. I use modern industry level front-end technologies such as Reactjs, TailwindCSS. However, I don't like limiting myself to a particular stack, so I'm constantly learning and adapting to end-user needs.
                 </p>
-                <div className='my-5 bg-purple-800 text-white p-2 rounded-2xl'>
+                <div className='lg:w-8/12 lg:mx-auto my-5 bg-purple-800 text-white p-2 rounded-2xl'>
                     <h1 className='my-2 text-xl font-medium'>Front-End : JavaScript, Reactjs, TailwindCSS, HTML/CSS, RTK, Zustand</h1>
                     <h1 className='my-2 text-xl font-medium'>Back-End : Nodejs, Expressjs, MongoDB, REST API, GraphQL</h1>
                     <h1 className='my-2 text-xl font-medium'>Tools : Git/Github, VS code editor, Netlify</h1>
@@ -106,7 +107,7 @@ const Home = () => {
             </div>
 
             {/* Call to action */}
-            <div id='#contact' className='mx-5 my-16 font-semibold text-xl'>
+            <div className='lg:text-center mx-5 my-16 font-semibold text-xl'>
                 <h1 className='my-4'>Lets works Together!</h1>
                 <h1 className='my-4'>And make something beautiful and great product.
                 </h1>
