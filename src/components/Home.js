@@ -120,7 +120,7 @@ const Home = () => {
                 <h1 className='my-4'>And make something beautiful and great product.
                 </h1>
                 <h1 className='my-2'>You can contact me at : </h1>
-                <ul className='my-5 flex justify-evenly items-center'>
+                <ul className='my-5 p-2 flex justify-evenly items-center bg-gradient-to-r from-pink-500 to-purple-500 rounded-xl'>
                     <li>
                         <a href='mailto:niteshpatel8852@gmail.com'><img className='w-10' src={emailIcon} alt='email-icon' /></a>
                     </li>
