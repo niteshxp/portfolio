@@ -36,21 +36,21 @@ const Projects = () => {
                 </div>
 
                 <div className='lg:w-2/5 mx-4 my-10 rounded-3xl bg-purple-700 bg-opacity-50 text-white'>
-                    <h1 className='font-semibold text-2xl text-center pt-4'>Zwiggy</h1>
+                    <h1 className='font-semibold text-2xl text-center pt-4'>WeTube</h1>
                     <img
                         className='h-32 my-4 mx-auto rounded-lg'
-                        src={zwiggy}
-                        alt='zwiggy'
+                        src={wetube}
+                        alt='wetube'
                     />
                     <p className='text-center text-lg font-medium mx-5'>
-                        Zwiggy is a food delivery web-app having different restaurants.
+                        WeTube is a video streaming web-app which uses youtube api and have live chat feature.
                     </p>
                     <div className='flex justify-evenly py-4 font-medium italic text-lg'>
                         <h1 className='hover:text-gray-400 hover:underline'>
-                            <a href='https://zwiggyapp.netlify.app/' target='_blank'>Live</a>
+                            <a href='https://wetubeproject.netlify.app/' target='_blank'>Live</a>
                         </h1>
                         <h1 className='hover:text-gray-400 hover:underline'>
-                            <a href='https://github.com/niteshxp/Food-App' target='_blank'>Github Link</a>
+                            <a href='https://github.com/niteshxp/WeTube' target='_blank'>Github Link</a>
                         </h1>
                     </div>
                 </div>
@@ -76,24 +76,26 @@ const Projects = () => {
                 </div>
 
                 <div className='lg:w-2/5 mx-4 my-10 rounded-3xl bg-purple-700 bg-opacity-50 text-white'>
-                    <h1 className='font-semibold text-2xl text-center pt-4'>WeTube</h1>
+                    <h1 className='font-semibold text-2xl text-center pt-4'>Zwiggy</h1>
                     <img
                         className='h-32 my-4 mx-auto rounded-lg'
-                        src={wetube}
-                        alt='wetube'
+                        src={zwiggy}
+                        alt='zwiggy'
                     />
                     <p className='text-center text-lg font-medium mx-5'>
-                        WeTube is a video streaming web-app which uses youtube api and have live chat feature.
+                        Zwiggy is a food delivery web-app having different restaurants.
                     </p>
                     <div className='flex justify-evenly py-4 font-medium italic text-lg'>
                         <h1 className='hover:text-gray-400 hover:underline'>
-                            <a href='https://wetubeproject.netlify.app/' target='_blank'>Live</a>
+                            <a href='https://zwiggyapp.netlify.app/' target='_blank'>Live</a>
                         </h1>
                         <h1 className='hover:text-gray-400 hover:underline'>
-                            <a href='https://github.com/niteshxp/WeTube' target='_blank'>Github Link</a>
+                            <a href='https://github.com/niteshxp/Food-App' target='_blank'>Github Link</a>
                         </h1>
                     </div>
                 </div>
+
+
 
             </div>
 
