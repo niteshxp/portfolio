@@ -4,7 +4,7 @@ import linkedinIcon from '../assets/linkedin.svg'
 
 const Contact = () => {
     return (
-        <div className='lg:text-center mx-5 my-16 font-semibold text-xl'>
+        <div className='lg:text-center mx-5 mt-16 font-semibold text-xl'>
             <h1 className='my-4'>Lets works Together!</h1>
             <h1 className='my-4'>And make something beautiful and great.</h1>
             <h1 className='my-2'>You can contact me at : </h1>

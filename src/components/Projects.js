@@ -6,14 +6,14 @@ import wetube from '../assets/wetube.png'
 
 const Projects = () => {
     return (
-        <div className='my-10 py-4'>
+        <div className='mt-24 py-4'>
             <div className='text-center'>
                 <h1 className='text-2xl font-semibold'>My Work</h1>
                 <p className=' text-lg font-medium my-2'>Here are some of my proof of work.</p>
             </div>
 
-            <div className='lg:flex lg:flex-wrap lg:justify-around'>
-                <div className='lg:w-2/5 mx-4 my-10 rounded-3xl bg-purple-700 bg-opacity-50 text-white'>
+            <div className='my-16 lg:flex lg:flex-wrap lg:justify-around'>
+                <div className='lg:w-2/5 mx-4 my-20 rounded-3xl bg-purple-700 bg-opacity-50 text-white'>
                     <h1 className='font-semibold text-2xl text-center pt-4'>
                         Netflix.ai
                     </h1>
@@ -35,7 +35,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='lg:w-2/5 mx-4 my-10 rounded-3xl bg-purple-700 bg-opacity-50 text-white'>
+                <div className='lg:w-2/5 mx-4 my-20 rounded-3xl bg-purple-700 bg-opacity-50 text-white'>
                     <h1 className='font-semibold text-2xl text-center pt-4'>WeTube</h1>
                     <img
                         className='h-32 my-4 mx-auto rounded-lg'
@@ -55,7 +55,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='lg:w-2/5 mx-4 my-10 rounded-3xl bg-purple-700 bg-opacity-50 text-white'>
+                <div className='lg:w-2/5 mx-4 my-20 rounded-3xl bg-purple-700 bg-opacity-50 text-white'>
                     <h1 className='font-semibold text-2xl text-center pt-4'>NewsDekho</h1>
                     <img
                         className='h-32 my-4 mx-auto rounded-lg'
@@ -75,7 +75,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='lg:w-2/5 mx-4 my-10 rounded-3xl bg-purple-700 bg-opacity-50 text-white'>
+                <div className='lg:w-2/5 mx-4 my-20 rounded-3xl bg-purple-700 bg-opacity-50 text-white'>
                     <h1 className='font-semibold text-2xl text-center pt-4'>Zwiggy</h1>
                     <img
                         className='h-32 my-4 mx-auto rounded-lg'
