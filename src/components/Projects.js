@@ -6,7 +6,7 @@ import wetube from '../assets/wetube.png'
 
 const Projects = () => {
     return (
-        <div className='mt-24 py-4'>
+        <div id='projects' className='mt-24 py-4'>
             <div className='text-center'>
                 <h1 className='text-2xl font-semibold'>My Work</h1>
                 <p className=' text-lg font-medium my-2'>Here are some of my proof of work.</p>

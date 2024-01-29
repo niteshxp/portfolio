@@ -4,7 +4,7 @@ import linkedinIcon from '../assets/linkedin.svg'
 
 const Contact = () => {
     return (
-        <div className='lg:text-center mx-5 mt-16 font-semibold text-xl'>
+        <div id='contact' className='lg:text-center mx-5 mt-16 font-semibold text-xl'>
             <h1 className='my-4'>Lets works Together!</h1>
             <h1 className='my-4'>And make something beautiful and great.</h1>
             <h1 className='my-2'>You can contact me at : </h1>
@@ -19,6 +19,21 @@ const Contact = () => {
                     <a href='https://github.com/niteshxp'><img className='w-10' src={githubIcon} alt='github-icon' /></a>
                 </li>
             </ul>
+            <form className='my-16'>
+                <div>
+                    <h1 className='text-center text-2xl'>Contact Me</h1>
+                    <div className='my-8'>
+                        <input className='lg:w-2/5 md:w-2/4 md:mx-56 rounded-xl p-2 w-full text-2xl' type='text' placeholder='Enter your Name' />
+                    </div>
+                    <div className='my-8'>
+                        <input className='lg:w-2/5 md:w-2/4 md:mx-56 rounded-xl p-2 w-full text-2xl' type='email' placeholder='Enter your Email' />
+                    </div>
+                    <div className='my-8'>
+                        <textarea className='lg:w-2/5 md:w-2/4 md:mx-56 rounded-xl p-2 w-full text-2xl' rows={5} placeholder='Enter your Message'></textarea>
+                    </div>
+                    <button className='w-full lg:w-2/5 md:w-2/4 md:mx-56 mx-auto rounded-xl p-2 text-2xl bg-red-500'>Submit</button>
+                </div>
+            </form>
         </div>
     )
 }
