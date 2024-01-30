@@ -12,7 +12,7 @@ import Contact from './Contact'
 const Home = () => {
 
     return (
-        <div className='text-gray-200 scroll-smooth'>
+        <div className='text-gray-200 scroll-smooth border'>
             <div>
                 <video
                     className='fixed top-0 left-0 w-screen h-screen object-cover -z-10'
