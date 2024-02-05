@@ -11,7 +11,7 @@ const Header = () => {
 
     return (
         <>
-            <div className='fixed bg-black bg-opacity-90 lg:bg-opacity-0 md:bg-opacity-0 lg:relative md:relative w-full h-20 py-2 px-4 flex items-center justify-between'>
+            <div className='fixed bg-black bg-opacity-90 lg:bg-opacity-0 md:bg-opacity-0 lg:relative md:relative w-full h-20 py-2 px-4 -mt-1 flex items-center justify-between'>
                 <h1 className='text-3xl font-bold text-gray-300 font-[Silkscreen]'>
                     <a href='/' className='hover:underline hover:underline-offset-8'>NiteshXP</a>
                 </h1>
