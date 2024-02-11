@@ -10,4 +10,4 @@ export const backEndData = "Back-End : Nodejs, Expressjs, MongoDB, MySQL, REST A
 
 export const toolsData = "Tools : Git/Github, Postman, Browserstack, VS code editor, Netlify"
 
-export const subjectData = "Core : Java, Data Structures and Algorithm, DBMS, Computer Network"
+export const subjectData = "Subjects : Data Structures and Algorithm, DBMS, Computer Network"

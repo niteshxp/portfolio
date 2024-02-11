@@ -98,7 +98,7 @@ const Projects = () => {
 
             <div className='my-10 text-center text-2xl font-semibold'>
                 <a href='https://github.com/niteshxp'>
-                    <h5 className='hover:translate-y-1'> {`>>>> More Projects <<<<`}  </h5>
+                    <h5 className='hover:translate-y-1 hover:text-yellow-300 '> {`>>>> More Projects <<<<`}  </h5>
                 </a>
             </div>
 

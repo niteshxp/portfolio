@@ -8,6 +8,7 @@ import About from './About';
 import Skills from './Skills'
 import Contact from './Contact'
 import Backtheme from './Backtheme'
+import ArrowAnimation from './ArrowAnimation'
 
 const Home = () => {
 
@@ -19,6 +20,7 @@ const Home = () => {
             <Header />
             <Main />
             <Buttons />
+            <ArrowAnimation />
             <Projects />
             <About />
             <Buttons />

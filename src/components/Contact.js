@@ -20,7 +20,7 @@ const Contact = () => {
                     <a href='https://github.com/niteshxp'><img className='w-10' src={githubIcon} alt='github-icon' /></a>
                 </li>
             </ul>
-            <Form />
+            {/* <Form /> */}
         </div>
     )
 }
